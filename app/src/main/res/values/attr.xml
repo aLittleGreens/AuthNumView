@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="point_num" format="integer"/>
+    <attr name="line_num" format="integer"/>
+    <attr name="backgroundColor" format="color"/>
+    <attr name="lineColor" format="color"/>
+    <attr name="pointColor" format="color"/>
+
+
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText"/>
+        <attr name="titleTextColor"/>
+        <attr name="titleTextSize"/>
+    </declare-styleable>
+    
+    <declare-styleable name="AuthNumView">
+        <attr name="titleText"/>
+        <attr name="titleTextColor"/>
+        <attr name="titleTextSize"/>
+        <attr name="backgroundColor" />
+        <attr name="point_num" />
+        <attr name="line_num" />
+        <attr name="lineColor" />
+        <attr name="pointColor" />
+    </declare-styleable>
+</resources>
